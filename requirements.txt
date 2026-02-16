@@ -9,7 +9,8 @@ dnspython==2.8.0
 ecdsa==0.19.1
 email-validator==2.3.0
 fastapi==0.129.0
-greenlet==3.3.1                                      h11==0.16.0
+greenlet==3.3.1
+h11==0.16.0
 httptools==0.7.1
 idna==3.11
 passlib==1.7.4
