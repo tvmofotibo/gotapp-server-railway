@@ -3,6 +3,7 @@ import shutil
 import asyncio
 import logging
 from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from datetime import datetime, timedelta, timezone
 from typing import Optional, List, Dict
 from fastapi import FastAPI, File, UploadFile, Depends, HTTPException, status, WebSocket, WebSocketDisconnect
