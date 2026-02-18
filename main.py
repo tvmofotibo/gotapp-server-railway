@@ -351,3 +351,5 @@ async def send_message(message: MessageSend, current_user: User = Depends(get_cu
 @app.get("/")
 def root():
     return FileResponse("static/index.html")
+# Monta a pasta "static" para servir arquivos estáticos
+app.mount("/static", StaticFiles(directory="static"), name="static")
