@@ -348,4 +348,4 @@ async def send_message(message: MessageSend, current_user: User = Depends(get_cu
 
 @app.get("/")
 def root():
-    return FileResponse("static/index.html")
+    return FileResponse("index.html")
